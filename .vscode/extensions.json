@@ -1,0 +1,26 @@
+{
+  "recommendations": [
+    "eamodio.gitlens",
+    "github.copilot-chat",
+    "github.copilot",
+    "github.vscode-github-actions",
+    "github.vscode-pull-request-github",
+    "mhutchie.git-graph",
+    "ms-azuretools.vscode-docker",
+    "ms-python.autopep8",
+    "ms-python.black-formatter",
+    "ms-python.debugpy",
+    "ms-python.isort",
+    "ms-python.python",
+    "ms-python.vscode-pylance",
+    "ms-toolsai.jupyter",
+    "oxundermoon.shell-format",
+    "quicktype.quicktype",
+    "saoudrizwan.claude-dev",
+    "shardulm94.trailing-spaces",
+    "slevesque.vscode-multiclip",
+    "streetsidesoftware.code-spell-checker",
+    "yzhang.markdown-all-in-one",
+    "zainchen.json",
+  ]
+}
