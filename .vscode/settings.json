@@ -1,14 +1,15 @@
 {
+  "editor.formatOnSave": true,
+  "editor.renderWhitespace": "trailing",
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "always",
+  },
   "[python]": {
     "editor.defaultFormatter": "ms-python.black-formatter",
-    "editor.formatOnSave": true,
-    "editor.codeActionsOnSave": {
-      "explicit": "always",
-      // "source.organizeImports": true
-    },
   },
-  "isort.args": [
-    "--profile",
-    "black"
-  ]
+  "python.analysis.typeCheckingMode": "basic",
+  "python.testing.pytestEnabled": true,
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "files.trimFinalNewlines": true,
 }
