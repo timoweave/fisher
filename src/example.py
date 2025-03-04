@@ -1,6 +1,4 @@
 import matplotlib.pyplot as plt
-import numpy as np
-import pandas as pd
 import yfinance as yf
 
 
@@ -19,5 +17,13 @@ def fetch_and_plot_stock(ticker, period="1y"):
     plt.show()
 
 
-fetch_and_plot_stock("AAPL", "1mo")
-fetch_and_plot_stock("NVDA", "1mo")
+def fibonacci(n):
+    if n == 0:
+        return 0
+    elif n == 1:
+        return 1
+
+    a, b = 0, 1
+    for _ in range(2, n + 1):
+        a, b = b, a + b
+    return b
